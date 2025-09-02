@@ -1,0 +1,19 @@
+{
+  "name": "pimlico-aa-api",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "better-sqlite3": "^9.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "permissionless": "^0.2.1",
+    "viem": "^2.21.6"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.4"
+  }
+}
